@@ -810,6 +810,17 @@ legend {
   box-sizing: border-box;
 }
 
+.back {
+  min-height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  background: url("../images/youtube.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+
 .s129 {
   min-height: 100vh;
   display: -ms-flexbox;

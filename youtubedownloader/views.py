@@ -16,12 +16,11 @@ def download_video(request):
                        "duration": convert(video_info["duration"]),
                        "thumbnail": video_info["thumbnail"],
                        }
-        return render(request, "h.html", context=context)
+        return render(request, "download.html", context=context)
     else:
-        return render(request,"index.html",context={})
+        return render(request, "index.html", context={})
+
 
 # convert seconds to 00:00:00 time format
 def convert(seconds):
     return str(datetime.timedelta(seconds=seconds))
-
-
