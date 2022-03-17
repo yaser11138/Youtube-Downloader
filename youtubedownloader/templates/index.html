@@ -45,9 +45,16 @@
             </div>
           </div>
         </form>
+
+      </div>
+      <div class="row justify-content-center mt-2">
+          {% if error %}
+          <p class="text-center bg-danger text-white w-25">Something Went Wrong Please try again!</p>
+          {% endif %}
+      </div>
+
+      </div>
           {% endblock %}
-      </div>
-      </div>
       </div>
       <footer class="bg-dark text-center text-white">
   <!-- Grid container -->
